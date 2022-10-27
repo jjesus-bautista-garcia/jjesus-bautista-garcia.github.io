@@ -1,0 +1,28 @@
+/* pink pallet
+https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
+*/
+.header {
+    position:absolute;
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #919098;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.header a {
+    font-weight: 300;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    
+
+}
+
+.headerRightBox {
+    margin: 0000 0px;
+    background-color: #897c80;
+    margin-right: 20px;
+}
