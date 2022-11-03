@@ -2,13 +2,13 @@
 https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
 */
 .header {
-    position:absolute;
+    position:static;
     top: 0;
     left:0;
     display: flex;
+    padding: 20px;
     justify-content: space-between;
-    background-color: #919098;
-    padding: 20px 10px;
+    background-color: #64014c;
     width: 100%;
 }
 
@@ -22,7 +22,8 @@ https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
 }
 
 .headerRightBox {
-    margin: 0000 0px;
-    background-color: #897c80;
-    margin-right: 20px;
+    background-color: #724552;
+    margin: 1px 40px;
+    padding: 5px;
+    border-radius: 10px;
 }
