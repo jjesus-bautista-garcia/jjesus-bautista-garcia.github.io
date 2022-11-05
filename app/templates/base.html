@@ -19,6 +19,7 @@
         {% else %}
         <title> Example Title </title>
         {% endif %}
+        <link rel="icon" href="../static/assets/img/icons8-bulbasaur-48.png" type="image/x-icon">
     </head>
     <body>
         <div class="header">
@@ -30,9 +31,6 @@
             </div>
         </div>
 
-        <div class="content">
-            <p> Welcome: {{ base_dict.header.welcomeMessage }} </p> 
-            <p> Descripción: {{ base_dict.main.information.description }}</p>
-        </div>
+        {% block index %} {% endblock %}
     </body>
 </html>

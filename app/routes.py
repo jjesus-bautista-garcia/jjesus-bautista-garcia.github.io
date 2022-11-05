@@ -12,5 +12,6 @@ def index():
     base_dict = getHeaderJson()
     title = base_dict["header"]['title']
 
-    return render_template('base.html', title=title, base_dict=base_dict)
-
+    return render_template('index.html', title=title, base_dict=base_dict)
+####
+####
