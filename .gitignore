@@ -10,6 +10,10 @@ app/__pycache__/
 *.py[cod]
 *$py.class
 
+app/bookstore/functions/__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
 # C extensions
 *.so
 
