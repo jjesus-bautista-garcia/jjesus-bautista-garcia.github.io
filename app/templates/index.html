@@ -1,7 +1,21 @@
 {% extends 'base.html' %}
 {% block index %}
-<div class="content">
-    <p> Welcome: {{ base_dict.header.welcomeMessage }} </p> 
-    <p> Descripción: {{ base_dict.main.information.description }}</p>
+
+<div class="mainContent">
+    <div id="mainContentHead">
+        <p id="descHead">{{ base_dict.main.information.description.head }}</p> <p id="descSubhead"> {{ base_dict.main.information.description.subhead }} </p>
+    </div>
+    
+    <hr> 
+    <p id="descBody"> {{ base_dict['main']['information']['description']['body'] }}</p>
+
+    <p id="descFoot"> {{ base_dict.main.information.description.foot }} </p>
+    <div id="mainContentFoot">
+        <a href="https://github.com/jjesus-bautista-garcia" target="_blank">
+            <img src="../static/assets/img/GitHub-Mark/GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png"/>
+        </a>
+        <br>
+        <a> follow me </a>
+    </div>
 </div>
 {% endblock %}
