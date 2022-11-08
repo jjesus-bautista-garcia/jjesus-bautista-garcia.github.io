@@ -11,22 +11,24 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Red+Hat+Text:wght@300;400&display=swap" rel="stylesheet">
         <!-- General information ALV -->
         <meta name="description" content="Personal github project">
         <meta name="author" content="jjesus-bautista">
-        {% if title %}
-        <title> {{ title }} </title>
+        {% if base_dict["meta"]['title'] %}
+        <title> {{ base_dict["meta"]['title'] }} </title>
         {% else %}
         <title> Example Title </title>
         {% endif %}
         <link rel="icon" href="../static/assets/img/icons8-bulbasaur-48.png" type="image/x-icon">
+        
     </head>
     <body>
         <div class="header">
-            <a class="headerTitle"> {{ title }} </a>
-            <div class="headerRightBox">
+            <a class="headerTitle"> {{ base_dict["header"]['title'] }} </a>
+            <div class="headerRightBoxFather">
                 {% for item in  base_dict.header.options %}
-                <a>{{ item }}</a>
+                <div class="headerRightBoxChild"><a>{{ item }}</a></div>
                 {% endfor %}
             </div>
         </div>
