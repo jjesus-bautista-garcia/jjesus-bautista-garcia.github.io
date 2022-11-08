@@ -8,7 +8,10 @@ https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
     display: flex;
     padding: 20px;
     justify-content: space-between;
-    background-color: #64014c;
+    /* background-color: #64014c; */
+    /* background-color:#8e4162; */
+    background-color: transparent;
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(112,9,121,1) 57%, rgba(0,255,141,1) 100%); */
     width: 100%;
 }
 
@@ -17,13 +20,25 @@ https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
     color: whitesmoke;
     text-align: center;
     padding: 5px;
+    font-size: 40px;
     
 
 }
 
-.headerRightBox {
+.headerRightBoxFather {
+    margin: 25px 40px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerRightBoxChild {
     background-color: #724552;
-    margin: 1px 40px;
-    padding: 5px;
+    margin: .5px 6px;
+    padding: 2px;
     border-radius: 10px;
+    
+}
+
+.headerRightBoxChild a {
+    font-size: 20px;
 }
