@@ -1,6 +1,10 @@
 {
+    "meta": {
+        "title": "Welcome to my interactive resume"
+    },
+    
     "header": {
-        "title": "Title Base",
+        "title": "",
         "welcomeMessage": "Welcome to my site",
         "options": ["Inicio", "Acceder", "Pregunta"]
     },
@@ -12,7 +16,12 @@
                 "cellnumber": "+523333333333",
                 "degree": "Engineering degree",
                 "job": "ExampleJob",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in lacinia sem. Ut vitae egestas odio. Pellentesque a accumsan ligula. Sed at neque dignissim, pulvinar massa sed, ornare nulla. Donec convallis magna tortor, eu scelerisque lectus faucibus a. In nulla nibh, sagittis eget ex vel, varius semper ante. Phasellus sem enim, vehicula eget dolor hendrerit, luctus dapibus sapien. Nulla fermentum placerat nisl, eu viverra turpis aliquam egestas. Fusce tortor sapien, facilisis at scelerisque a, convallis nec tellus. Fusce interdum, libero nec hendrerit iaculis, turpis augue ornare massa, hendrerit accumsan nibh neque sit amet magna. Vestibulum vel dui in diam fringilla varius. Praesent et tempus orci. Nullam eu lectus vel mauris sagittis blandit."
+                "description": {
+                    "head": "<b>Hi I'm Jesús,</b>",
+                    "subhead": "Web Developer and Data analyst",
+                    "body": "I like Pokemon, specifically: Bulbasaur.\nI started to code since 2017 when I was an intern in Pirelli México; at the beggining of 2018 I went to Milan, Italy for a code training and I was selected to startup México Digital innovation department (a.k.a Smart Manufacturing or SMO).\nI'm developer leader of SMO since 2020.",
+                    "foot": "Footer Example"
+                }
             }
         }
     
