@@ -8,5 +8,5 @@ def readJSON(path, mode):
             f.close()
     return base_dict
 
-def getHeaderJson():
-        return readJSON("App/static/data/base.json", "rb")
+def getHeaderJson(file='base_ex.json'):
+        return readJSON(f"App/static/data/{file}", "rb")

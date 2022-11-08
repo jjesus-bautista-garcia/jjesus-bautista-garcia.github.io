@@ -1,0 +1,28 @@
+{
+    "meta": {
+        "title": "Welcome to my interactive webpage"
+    },
+    
+    "header": {
+        "title": "",
+        "welcomeMessage": "Welcome to my site",
+        "options": ["Main Page", "Log-In", "FAQ"]
+    },
+    
+    "main": 
+        {
+            "information": {
+                "email": "example@example.com",
+                "cellnumber": "+523333333333",
+                "degree": "Pokemon master degree",
+                "job": "Medical Plan Type Researcher",
+                "description": {
+                    "head": "<b>Hi I'm Gremlins,</b>",
+                    "subhead": "Researcher (plant type)",
+                    "body": "Officia quis reprehenderit aliquip esse officia voluptate consectetur non consequat dolor consectetur mollit ipsum. Ullamco nisi ipsum nostrud consectetur deserunt culpa eiusmod eu ipsum minim sint sint",
+                    "foot": "Footer Example"
+                }
+            }
+        }
+    
+}
