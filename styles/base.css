@@ -2,18 +2,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Text', sans-serif;
-    /* background-image: linear-gradient(to right, #DECBA4, #3E5151); */
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
     /* background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); */
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
-    color: whitesmoke;
-
-
-
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+    color: rgb(29, 29, 29);
 }
 
 .mainContent {
     margin: auto;
-    width: 70%;
+    width: 85%;
     padding: 20px;
 
     
@@ -23,6 +20,7 @@ body {
 #mainContentHead {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 #mainContentHead p {
@@ -43,17 +41,43 @@ body {
 
 #descHead {
     font-weight: bolder;
-    font-size: 65px;
+    font-size: 4rem;
 }
 
-#descSubhead {
+#descSubhead, #descFoot {
     font-family: 'Raleway', sans-serif;
-    font-style:oblique;
-    font-size: 45px;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.85rem;
 }
 
 #descBody {
     text-align: justify;
-    font-size: 27px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#descBodyChild {
+    text-shadow: 1px 2px 3px #000000;
+    color: rgb(255 246 246);
+}
+
+#mainContentFoot {
+    position:static;
+    top: 0;
+    left:0;
+    display: flex;
+    padding: 20px;
+    justify-content:center;
+    /* background-color: #64014c; */
+    /* background-color:#8e4162; */
+    background-color: transparent;
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(112,9,121,1) 57%, rgba(0,255,141,1) 100%); */
+    width: 100%;
+}
+
+#descFoot {
+    text-align: center;
 }
 

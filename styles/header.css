@@ -32,11 +32,15 @@ https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
 }
 
 .headerRightBoxChild {
-    background-color: #724552;
+    background-color: #f19fb747;
     margin: .5px 6px;
     padding: 2px;
     border-radius: 10px;
     
+}
+
+.headerRightBoxChild:hover {
+    background-color: darkslategray;
 }
 
 .headerRightBoxChild a {
