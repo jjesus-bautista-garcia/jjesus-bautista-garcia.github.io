@@ -1,6 +1,6 @@
 {
     "meta": {
-        "title": "Welcome to my interactive resume"
+        "title": "Jesús Bautista Personal Page"
     },
     
     "header": {
@@ -12,15 +12,21 @@
     "main": 
         {
             "information": {
-                "email": "example@example.com",
+                "email": "jjbg.professional.contact@gmail.com",
                 "cellnumber": "+523333333333",
                 "degree": "Engineering degree",
                 "job": "ExampleJob",
                 "description": {
-                    "head": "<b>Hi I'm Jesús,</b>",
-                    "subhead": "Web Developer and Data analyst",
-                    "body": "I like Pokemon, specifically: Bulbasaur.\nI started to code since 2017 when I was an intern in Pirelli México; at the beggining of 2018 I went to Milan, Italy for a code training and I was selected to startup México Digital innovation department (a.k.a Smart Manufacturing or SMO).\nI'm developer leader of SMO since 2020.",
-                    "foot": "Footer Example"
+                    "head": "Jesús Bautista",
+                    "subhead": "Project Manager Jr. | Web Developer | Data analyst",
+                    "bulbasaur": "https://archives.bulbagarden.net/media/upload/archive/7/7c/20100424195401%21Spr_4d_001_s.png",
+                    "body": {
+                        "l1": "I am glad to have you here; plese let me introduce myself. My name is J. Jesús, you can call me by JJ too; so... I was born in Baja California Sur; at the age of 18 I moved to Guanajuato to study Industrial Engineering, I started my professional career in Pirelli Silao (Pneumatic tires manufacturer) as an intern when I was studying my last year of college; after 7 months I was hired (2018) to started-up one of the head-quarter's most ambitious challanges: drive the group to a digital innovation strategy, focused on data analytics and 4.0 culture by a local team for every factory: the Smart Manufacturing Office (SMO). which creates value in manufacturing processes through improve decision making in shopfloor by technology development as data analytics, web application, BI dashboards and automated alerts and reporting.",
+                        "l2": "Nowadays I am SMO Leader of Pirelli Silao, performing a Project Manager role and driving 6 Jr developers to achieve our results.",
+                        "l3": "Anyway, I started as a Jr developer too, after all. Coding turned me into a data analyst, fullstack web-developer and now, a project manager; but I will never stop coding, I really love the process of creating anything from scratch and challange my mind every day. I consider myself as a very motivated professional which looks for continue learning, increase my technical skills, and growing every day as a humble and proactive leader."
+                    },
+
+                    "foot": "Let's get in touch."
                 }
             }
         }
