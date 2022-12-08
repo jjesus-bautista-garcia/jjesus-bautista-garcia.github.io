@@ -1,0 +1,12 @@
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    margin: 1.2em;
+}
+
+.imgContainer img {
+    border-radius: 50%;
+    width: 45%;
+    /* filter: hue-rotate(9deg); */
+    filter: drop-shadow(-.5em .7em .9em #3E5151);
+}
