@@ -6,7 +6,7 @@
 
 .imgContainer img {
     border-radius: 50%;
-    width: 45%;
+    width: 30%;
     /* filter: hue-rotate(9deg); */
     filter: drop-shadow(-.5em .7em .9em #3E5151);
 }
