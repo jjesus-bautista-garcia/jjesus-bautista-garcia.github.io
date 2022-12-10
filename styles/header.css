@@ -15,7 +15,7 @@ https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
     width: 100%;
 }
 
-.header a {
+/* .header a {
     font-weight: 300;
     color: whitesmoke;
     text-align: center;
@@ -23,7 +23,29 @@ https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
     font-size: 40px;
     
 
+} */
+
+.burgerMenu {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 17px;
+    left: 200px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: blue;
 }
+
+.burgerMenu .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #0e2431;
+  }
 
 .headerRightBoxFather {
     margin: 25px 40px 40px;
