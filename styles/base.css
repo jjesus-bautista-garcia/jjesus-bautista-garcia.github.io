@@ -1,6 +1,10 @@
-body {
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    width: 100%;
     font-family: 'Red Hat Text', sans-serif;
     background-image: linear-gradient(to right, #DECBA4, #3E5151);
     /* background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); */

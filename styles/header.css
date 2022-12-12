@@ -2,6 +2,10 @@
 https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
 */
 .header {
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+
+.header-container {
     position:static;
     top: 0;
     left:0;
@@ -11,8 +15,6 @@ https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
     /* background-color: #64014c; */
     /* background-color:#8e4162; */
     background-color: transparent;
-    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(112,9,121,1) 57%, rgba(0,255,141,1) 100%); */
-    width: 100%;
 }
 
 /* .header a {
@@ -47,13 +49,13 @@ https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
     background: #0e2431;
   }
 
-.headerRightBoxFather {
+.headerRightBox {
     margin: 25px 40px 40px;
     display: flex;
     justify-content: space-between;
 }
 
-.headerRightBoxChild {
+.headerRightBox-container {
     background-color: #f19fb747;
     margin: .5px 6px;
     padding: 2px;
