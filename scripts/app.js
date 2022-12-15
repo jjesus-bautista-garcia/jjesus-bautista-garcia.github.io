@@ -42,3 +42,17 @@ let innerBody = data => {
   .then(data => appendBodyData(data))
   .catch(error => console.log(error));
 
+ // Checked input
+let checkbox = document.querySelector(".header-container input[type=checkbox]");
+let mainContent = document.querySelector("div.mainContent");
+checkbox.addEventListener('change', function() {
+  if (this.checked) {
+    console.log("Checkbox is checked..");
+    mainContent.style.display = 'none';
+
+  } else {
+    console.log("Checkbox is not checked..");
+    mainContent.style.display = 'block';
+  }
+});
+
