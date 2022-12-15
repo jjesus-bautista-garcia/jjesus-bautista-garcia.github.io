@@ -35,17 +35,17 @@ https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
 .header-container {
     display: block;
     position: relative;
-    height: 60px;
+    height: 3.75em
 }
 
 .header-container .checkbox {
     position: absolute;
     display: block;
     cursor: pointer;
-    height: 2.1em;
-    width: 2.3em;
-    top: 1.27em;
-    left: 1.3em;
+    height: 2em;
+    width: 2em;
+    top: 1.25em;
+    left: 1.25em;
     z-index: 5; 
     opacity: 0;
 }
@@ -53,9 +53,9 @@ https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
 .header-container .bMenu-lines {
     position: absolute;
     display: block;
-    height: 2em;
+    height: 1.625em;
     width: 2em;
-    top: 1.25em;
+    top: 1.0625em;
     left: 1.25em;
     z-index: 2; 
     display: flex;
