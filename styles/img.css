@@ -1,5 +1,5 @@
 .imgContainer {
-    display: flex;
+    display: none;
     justify-content: center;
     margin: 1.2em;
 }

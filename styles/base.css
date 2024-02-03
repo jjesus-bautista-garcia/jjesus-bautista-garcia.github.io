@@ -2,10 +2,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Text', sans-serif;
-    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+    background-image: linear-gradient(to right, #3E5151, #0c0f0f);
     /* background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); */
     /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
-    color: rgb(29, 29, 29);
+    color: blanchedalmond;
 }
 
 .mainContent {
@@ -20,7 +20,6 @@ body {
 #mainContentHead {
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
 
 #mainContentHead p {
@@ -33,11 +32,24 @@ body {
 }
 
 #mainContentFoot * {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
+
+#mainContentFoot a:link {
+    color: blanchedalmond;
+}
+
+#mainContentFoot a:visited {
+    color: lightslategray;
+}
+
+#mainContentFoot a:hover {
+    color: goldenrod;
+}
+
 
 #descHead {
     font-weight: bolder;
@@ -49,6 +61,7 @@ body {
     font-style: oblique;
     font-weight: bold;
     font-size: 1.85rem;
+    color: beige;
 }
 
 #descBody {
@@ -59,8 +72,8 @@ body {
 }
 
 #descBodyChild {
-    text-shadow: 1px 2px 3px #000000;
-    color: rgb(255 246 246);
+    text-shadow: 0.5 #000000;
+    color: blanchedalmond;
 }
 
 #mainContentFoot {
