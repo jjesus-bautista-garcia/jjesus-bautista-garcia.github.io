@@ -10,7 +10,7 @@ body {
 
 .myName {
     /* border: blue 2px solid; */
-    max-width: 28rem;
+    max-width: 850px;
     margin-left: 1rem;
 }
 
@@ -21,7 +21,7 @@ body {
 .myName p#name {
     /* border: grey 1px solid; */
     font-weight: bolder;
-    font-size: 4rem;
+    font-size: 8rem;
     margin-bottom: -100;
     padding-bottom: 0;
 }
@@ -29,10 +29,10 @@ body {
 
 
 .myName p#personalQuote {
-    margin-left: 4.3rem;
+    margin-left: 200px;
     /* border: 0.1rem green solid; */
     margin-top: 0;
     font-style: italic;
     font-weight: lighter;
-    font-size: .7rem;
+    font-size: 1rem;
 }

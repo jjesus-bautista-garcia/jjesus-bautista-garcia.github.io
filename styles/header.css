@@ -2,7 +2,7 @@
 https://coolors.co/919098-897c80-ba8f95-cab6cd-cfbcdf
 */
 .header {
-    position:static;
+    position:fixed;
     top: 0;
     left:0;
     display: flex;
