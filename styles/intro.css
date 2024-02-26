@@ -24,22 +24,23 @@
 }
 
 #intro div#desc {
-    flex: 1;
+    flex: .45;
     width: 90%;
-    margin-left: 1rem;
-    margin-right: 0;
+    margin-left: 3rem;
+    margin-right: 5rem;
     /* border: 1px lightgreen dashed; */
     /*ALIGN ITEMS*/
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;
+    font-size: 1.8rem;
 }
 
 
 
 #intro img {
-    width: 80%
+    width: 20rem
 }
 
 /* footer */
