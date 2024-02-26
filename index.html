@@ -5,9 +5,10 @@
         <!-- Setting viewport for all browsers and devices as mobiles -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <!-- JS -->
-        <script type="text/javascript" src="scripts/app.js" defer></script>
+        <!-- <script type="text/javascript" src="scripts/app.js" defer></script> -->
         <!-- Styles -->
         <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/intro.css">
         <link rel="stylesheet" href="styles/base.css">
         <link rel="stylesheet" href="styles/img.css">
         <!--CSS Icons-->
@@ -27,42 +28,38 @@
         
     </head>
     <body>
-        <div class="header">
-            <a class="headerTitle">  </a>
-            <div class="headerRightBoxFather">
-                
-                <div class="headerRightBoxChild"><a>This page is still in development</a></div>
-                
-            </div>
-        </div>
 
+        <section id="intro">
+            <header class="myName">
+                <p id="greet"> Hello, world... I am</p><br>
+                <p id="name"> Jesús Bautista</p>
+                <p id="personalQuote">I drive success to business through data and user’s stories.</p>
+            </header>
+    
         
+            
+            <main>
+                <figure>
+                    <img src="./assets/img/index.jpg"/>
+                </figure>
+                
+                <div id="desc">
+                    <p class="child">
+                        An experienced software engineer with 7 years of experienced who have worked at manufacturing and technology business where lead and participate on  I4.0 projects, data analytics, software Development.
+                    </p>
+                    
+                </div>
+            </main>
 
-<div class="mainContent">
-    <div id="mainContentHead">
-        <p id="descGreet"> Hello, world... I am</p><br>
-        <p id="descHead"></p> <br> <p id="descSubhead"></p>
-    </div>
-    
-    <hr> 
-    
-    <div class="imgContainer">
-        <img src="./assets/img/profile.PNG"/>
-    </div>
-
-    <p id="descBody"></p>
-    <hr> 
-    <p id="descFoot"> Contact </p>
-    <div id="mainContentFoot">
-        <a href="https://github.com/jjesus-bautista-garcia" target="_blank">
-            <p>github</p>
-        </a>
-
-        <a href="mailto:jjbg.professional.contact@gmail.com" target="_blank">
-            <p>email</p>
-        </a>
-    </div>
-</div>
+            <footer>
+                <nav>
+                    <a>about</a>
+                    <a>experience</a>
+                    <a>contact</a>
+                </nav>
+            </footer>
+            
+        </section>
 
     </body>
 </html>

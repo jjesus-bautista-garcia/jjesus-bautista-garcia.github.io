@@ -5,92 +5,34 @@ body {
     background-image: linear-gradient(to right, #3E5151, #0c0f0f);
     /* background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); */
     /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
-    color: blanchedalmond;
+    color: #ffebcd;
 }
 
-.mainContent {
-    margin: auto;
-    width: 85%;
-    padding: 20px;
-
-    
-
+.myName {
+    /* border: blue 2px solid; */
+    max-width: 28rem;
+    margin-left: 1rem;
 }
 
-#mainContentHead {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#mainContentHead p {
+.myName p {
     display: inline;
 }
 
-#mainContentFoot {
-    margin: auto;
-    width: 100%
-}
-
-#mainContentFoot * {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-#mainContentFoot a:link {
-    color: blanchedalmond;
-}
-
-#mainContentFoot a:visited {
-    color: lightslategray;
-}
-
-#mainContentFoot a:hover {
-    color: goldenrod;
-}
-
-
-#descHead {
+.myName p#name {
+    /* border: grey 1px solid; */
     font-weight: bolder;
     font-size: 4rem;
+    margin-bottom: -100;
+    padding-bottom: 0;
 }
 
-#descSubhead, #descFoot {
-    font-family: 'Raleway', sans-serif;
-    font-style: oblique;
-    font-weight: bold;
-    font-size: 1.85rem;
-    color: beige;
-}
 
-#descBody {
-    text-align: justify;
-    font-family: 'Raleway';
-    font-weight: bold;
-    font-size: 1.3rem;
-}
 
-#descBodyChild {
-    text-shadow: 0.5 #000000;
-    color: blanchedalmond;
+.myName p#personalQuote {
+    margin-left: 4.3rem;
+    /* border: 0.1rem green solid; */
+    margin-top: 0;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: .7rem;
 }
-
-#mainContentFoot {
-    position:static;
-    top: 0;
-    left:0;
-    display: flex;
-    padding: 20px;
-    justify-content:center;
-    /* background-color: #64014c; */
-    /* background-color:#8e4162; */
-    background-color: transparent;
-    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(112,9,121,1) 57%, rgba(0,255,141,1) 100%); */
-    width: 100%;
-}
-
-#descFoot {
-    text-align: center;
-}
-
