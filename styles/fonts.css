@@ -1,0 +1,28 @@
+.monoton-regular {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 1 to 1000 */
+
+/* .ysabeau-infant-<uniquifier> { */
+.ysabeau-infant-1 {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-weight: 650;
+  font-style: normal;
+}
+
+/* .ysabeau-infant-<uniquifier> { */
+.ysabeau-infant-2 {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-weight: 520;
+  font-style: normal;
+}

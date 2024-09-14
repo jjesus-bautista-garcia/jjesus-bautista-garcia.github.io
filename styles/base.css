@@ -2,37 +2,23 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Text', sans-serif;
-    background-image: linear-gradient(to right, #3E5151, #0c0f0f);
+    background-color: burlywood;
+    /* background-image: linear-gradient(to right, #3E5151, #0c0f0f); */
     /* background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); */
     /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
-    color: #ffebcd;
+    /* color: #ffebcd; */
+    color: #000000;
 }
 
-.myName {
-    /* border: blue 2px solid; */
-    max-width: 850px;
-    margin-left: 1rem;
+main {
+    background-color: rgb(37, 37, 37);
+    margin: 1.5em;
 }
 
-.myName p {
-    display: inline;
+footer {
+    margin: 1.5em;
 }
 
-.myName p#name {
-    /* border: grey 1px solid; */
-    font-weight: bolder;
-    font-size: 8rem;
-    margin-bottom: -100;
-    padding-bottom: 0;
-}
-
-
-
-.myName p#personalQuote {
-    margin-left: 200px;
-    /* border: 0.1rem green solid; */
-    margin-top: 0;
-    font-style: italic;
-    font-weight: lighter;
-    font-size: 1rem;
+p {
+    /* background-color: violet; */
 }

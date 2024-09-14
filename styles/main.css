@@ -1,0 +1,65 @@
+.three-cols {
+    display: flex;
+}
+.father {
+    margin: .3em;
+    padding: .3em;
+    width: 30%;
+    background-color: brown;
+}
+
+#presentation-name {
+    background-color: green;
+}
+
+.father div.child {
+    /* background-color: #6451ca; */
+    margin-top: 50%;
+    margin-bottom: 50%;
+    padding: .5em;
+}
+
+.three-cols h1
+{
+    font-size:xx-large ;
+}
+
+.three-cols p
+{
+    font-size:1.1em ;
+}
+
+figure {
+    margin: .3em;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(232, 235, 229);
+}
+
+figure img {
+    width: 100%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 450px) {
+    .three-cols {
+    flex-direction: column;
+    margin: auto;
+    padding: 1em;
+    }
+
+    .father, figure {
+        width: 100%;
+        height: 25%;
+        margin: auto;
+        padding: auto;
+        justify-content: center;
+    }
+    .father div.child {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: auto;
+    }
+}

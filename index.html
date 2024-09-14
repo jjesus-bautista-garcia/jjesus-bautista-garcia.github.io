@@ -7,10 +7,14 @@
         <!-- JS -->
         <!-- <script type="text/javascript" src="scripts/app.js" defer></script> -->
         <!-- Styles -->
+        <link rel="stylesheet" href="styles/sections.css">
         <link rel="stylesheet" href="styles/header.css">
-        <link rel="stylesheet" href="styles/intro.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- <link rel="stylesheet" href="styles/intro.css"> -->
         <link rel="stylesheet" href="styles/base.css">
         <link rel="stylesheet" href="styles/img.css">
+        <link rel="stylesheet" href="styles/fonts.css">
         <!--CSS Icons-->
         <!-- <link type="stylesheet" href="styles/icons/gmail.css"> -->
         <!-- Fonts -->
@@ -18,6 +22,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Red+Hat+Text:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- Hello world -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- <p> for presentation -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
         <!-- General information ALV -->
         <meta name="description" content="Personal github project">
         <meta name="author" content="jjesus-bautista">
@@ -28,46 +40,53 @@
         
     </head>
     <body>
-        <div class="header">
-            <a class="headerTitle">  </a>
-            <div class="headerRightBoxFather">
-                
-                <div class="headerRightBoxChild"><a>This page is still in development</a></div>
-                
-            </div>
-        </div>
 
         <section id="intro">
             <header class="myName">
-                <p id="greet"> Hello, world... I am</p><br>
-                <p id="name"> Jesús Bautista</p>
-                <p id="personalQuote">I drive success to business through data and user’s stories.</p>
+                <p id="greet" class="monoton-regular"> Hello world... </p><br>
             </header>
     
         
             
-            <main>
-                <figure>
-                    <img src="./assets/img/index.jpg"/>
-                </figure>
+            <main class="three-cols">
                 
-                <div id="desc">
-                    <p class="child">
-                        An experienced software engineer with 7 years of experience who have worked at manufacturing and technology businesses taking different roles: from developer to lead engineer; leading and participating with different teams on I4.0 projects, data analytics and software development.
-                    </p>
-                    
+                <div class="father" id="presentation-name">
+                   <div class="child">
+                        <h1 class="ysabeau-infant-1">
+                            I am Jesús Bautista
+                        </h1>
+                        <p class="ysabeau-infant-2">
+                            And this site lacks of css! cause I mostly code backend... &#128517;
+                        </p>
+                   </div> 
+                </div>
+
+                <figure>
+                    <p class="ysabeau-infant-2"> this is me looking cool  </p>
+                    <img src="./assets/img/index-removebg-cropped.png"/>
+                </figure>
+
+                <div class="father" id="presentation-desc">
+                   <div class="child">
+                        <p class="ysabeau-infant-2">
+                            Software engineer with experience in automotive manufacturing and technology business WW companies specialized in I4.0; DevOps; Data analytics; REST API; web apps development; people management and leadership.
+                        </p>
+                   </div>
                 </div>
             </main>
 
-            <footer>
-                <nav>
-                    <a>about</a>
-                    <a>experience</a>
-                    <a>contact</a>
-                </nav>
-            </footer>
+            
             
         </section>
-
+        <footer>
+            <div id="foot-header">
+                <h1 class="ysabeau-infant-2"> Find me at </h1>
+            </div>
+            <nav>
+                <a href="mailto:jjbg.professional.contact@gmail.com">Gmail</a>
+                <a href="https://github.com/jjesus-bautista-garcia">Github</a>
+                <a href="https://www.linkedin.com/in/j-jes%C3%BAs-bautista-garc%C3%ADa-23712b180/">Linkedin</a>
+            </nav>
+        </footer>
     </body>
 </html>
